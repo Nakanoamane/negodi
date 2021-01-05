@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: '/Nakanoamane/',
+    publicPath: './',
     outputDir: 'docs',
     devServer: {
         port: 8081,
