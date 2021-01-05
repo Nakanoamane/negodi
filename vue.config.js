@@ -1,5 +1,6 @@
 module.exports = {
-    publicPath: './',
+    assetsDir: './',
+    publicPath: '/negodi/',
     outputDir: 'docs',
     devServer: {
         port: 8081,
