@@ -1,24 +1,15 @@
-# negodi
+# ネゴぢ
 
-## Project setup
+### 開発環境サーバー起動
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+$ npm run serve
 ```
 
-### Compiles and minifies for production
+### コンパイル
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
+$ npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 開発環境時のURL
+
+http://localhost:8081/negodi/
