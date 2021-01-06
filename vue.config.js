@@ -1,5 +1,4 @@
 module.exports = {
-    assetsDir: './',
     publicPath: '/negodi/',
     outputDir: 'docs',
     devServer: {
