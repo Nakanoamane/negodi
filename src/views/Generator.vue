@@ -139,10 +139,8 @@
 
         <div class="result" v-if="part==='result'">
             <h2>{{ negodi.texts.name }}ネゴぢ<br>爆誕！</h2>
-            <a :href="result" :download="negodi.texts.name+'ネゴぢ.png'">
-                <img :src="result" :alt="negodi.texts.name+'ネゴぢ'" :width="imageSize" :height="imageSize">
-            </a>
-            <p>ダウンロードして使ってね</p>
+            <img :src="result" :alt="negodi.texts.name+'ネゴぢ'" :width="imageSize" :height="imageSize">
+            <a :href="result" :download="negodi.texts.name+'ネゴぢ.png'"><p>ダウンロードして使ってね</p></a>
 
             <button class="back" @click="backToEdit()"><fa-icon icon="angle-double-left" /> 編集に戻る</button>
             <button class="new"><a href="./">新しいネゴぢを作る</a></button>

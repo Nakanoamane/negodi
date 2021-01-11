@@ -91,7 +91,7 @@ export default {
     width: 100%;
     max-width: 350px;
     padding: 11px;
-    margin: 20px auto;
+    margin: 20px auto 50px;
     border-radius: 20px;
     background: linear-gradient(145deg, #ffa962, #EF9250);
     box-shadow:  10px 10px 20px #da8950,
