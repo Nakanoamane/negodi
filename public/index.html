@@ -4,7 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="keywords" content="ネゴぢ">
+    <meta name="description" content="でがネゴぢのWEBページ">
+    <!--sns-->
+    <meta property="og:type" content="website"><!-- 下層ページは article -->
+    <meta property="og:site_name" content="<%= htmlWebpackPlugin.options.title %>">
+    <meta property="og:description" content="でがネゴぢのWEBページ">
+    <meta property="og:title" content="<%= htmlWebpackPlugin.options.title %>">
+    <meta property="og:url" content="<%= BASE_URL %>">
+    <meta property="og:image" content="<%= BASE_URL %>og_image.png">
+    <meta name="twitter:card" content="summary_large_image" />
+
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= BASE_URL %>apple-touch-icon.png">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>

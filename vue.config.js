@@ -10,7 +10,7 @@ module.exports = {
             entry: 'src/main.js',
             template: 'public/index.html',
             filename: 'index.html',
-            title: 'ネゴぢ　ジェネレーター',
+            title: 'でがネゴぢ',
         }
     }
 };

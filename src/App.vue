@@ -5,11 +5,6 @@
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #fffdfa;
-}
+  @import "./css/destyle.css";
+  @import "./css/common.css";
 </style>

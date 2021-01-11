@@ -1,0 +1,44 @@
+html {
+    font-family: "Hiragino Maru Gothic Pro", "HGMaruGothicMPRO", Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #fff;
+}
+
+html, body, #app {
+    height:100%;
+    width: 100%;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.inputFileLabel {
+    background: #fa9e5c;
+    border-radius: 10px;
+    padding: 6px 20px;
+    color: #fff;
+}
+
+/*transition*/
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 1s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.accordion-enter-active,
+.accordion-leave-active {
+    transition: height 0.5s;
+}
+
+.accordion-enter,
+.accordion-leave-to {
+    height: 0;
+}
