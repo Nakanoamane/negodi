@@ -7,9 +7,9 @@
 
         <transition name="accordion" appear>
             <ul class="menu" v-if="isDisplay">
-                <li><a href="./">ホーム</a></li>
-                <li><a href="./about">ネゴぢとは</a></li>
-                <li><a href="./generator">ネゴぢジェネレーター</a></li>
+                <li><router-link to="/">ホーム</router-link></li>
+                <li><router-link to="/about">ネゴぢとは</router-link></li>
+                <li><router-link to="/generator">ネゴぢジェネレーター</router-link></li>
             </ul>
         </transition>
     </div>

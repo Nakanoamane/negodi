@@ -8,8 +8,8 @@
     </div>
 
     <ul class="link">
-      <li><a href="about" class="btn-big">ネゴぢとは</a></li>
-      <li><a href="generator"  class="btn-big">ネゴぢジェネレーター</a></li>
+      <li><router-link to="/about"><span class="btn-big">ネゴぢとは</span></router-link></li>
+      <li><router-link to="/generator"><span class="btn-big">ネゴぢジェネレーター</span></router-link></li>
     </ul>
   </div>
 </template>

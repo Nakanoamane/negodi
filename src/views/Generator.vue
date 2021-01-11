@@ -145,7 +145,7 @@
             <p>ダウンロードして使ってね</p>
 
             <button class="back" @click="backToEdit()"><fa-icon icon="angle-double-left" /> 編集に戻る</button>
-            <button class="new"><a href="../generator">新しいネゴぢを作る</a></button>
+            <button class="new"><a href="../">新しいネゴぢを作る</a></button>
         </div>
 
     </div>
