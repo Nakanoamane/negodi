@@ -88,7 +88,8 @@
 
                     <div class="editMenu_step" v-if="step===3">
                         <label class="inputNameLabel">ネゴぢの名前</label>
-                        <input class="inputName" type="input" v-model="negodi.texts.name">
+                        <input class="inputName name" type="input" v-model="negodi.texts.name">
+                        <div class="inputNameNegodi"><span>ネゴぢ</span></div>
 
                         <button class="statusBtn" @click="negodi.statuses.name = !negodi.statuses.name" :class="{active:negodi.statuses.name}">
                             {{ negodi.statuses.name ? '表示中' : '非表示中' }}
@@ -143,7 +144,7 @@
             <a :href="result" :download="negodi.texts.name+'ネゴぢ.png'"><p>ダウンロードして使ってね</p></a>
 
             <button class="back" @click="backToEdit()"><fa-icon icon="angle-double-left" /> 編集に戻る</button>
-            <button class="new"><a href="./">新しいネゴぢを作る</a></button>
+            <button class="new"><router-link to="/generator">新しいネゴぢを作る</router-link></button>
         </div>
 
     </div>
@@ -441,6 +442,24 @@
         margin-top: 10px;
         border: solid 1px #ddd;
         padding: 4px;
+    }
+
+    .inputName.name {
+        width:60%;
+    }
+
+    .inputNameNegodi {
+        display: inline-block;
+        width: 65px;
+        height: 28px;
+        position: relative;
+    }
+
+    .inputNameNegodi span{
+        width: 100%;
+        position: absolute;
+        top: 18px;
+        left:0;
     }
 
     .statusBtn {
