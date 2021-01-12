@@ -144,7 +144,7 @@
             <a :href="result" :download="negodi.texts.name+'ネゴぢ.png'"><p>ダウンロードして使ってね</p></a>
 
             <button class="back" @click="backToEdit()"><fa-icon icon="angle-double-left" /> 編集に戻る</button>
-            <button class="new"><router-link to="/generator">新しいネゴぢを作る</router-link></button>
+            <button class="new"><router-link to="/">新しいネゴぢを作る</router-link></button>
         </div>
 
     </div>
